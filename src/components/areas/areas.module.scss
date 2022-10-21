@@ -1,0 +1,79 @@
+
+.areas {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+  margin-bottom: 2rem;
+}
+
+.areasTitle {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  font-family: 'Cinzel', serif;
+}
+
+.areasContent {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-gap: 1rem;
+}
+
+.areasCard {
+  width: 150px;
+  height: 150px;
+  border-radius: 10px;
+  background-image: url('https://static.wixstatic.com/media/1e47b2_17ebd166dbc54d699613d968a5a334b8.png/v1/fill/w_220,h_240,al_c,q_85,enc_auto/1e47b2_17ebd166dbc54d699613d968a5a334b8.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+  h1{
+    font-size: 4rem;
+  }
+
+}
+
+.areasCardTitle{
+  text-align: center;
+    font-size: 1rem;
+  font-weight: bold;
+    font-family: 'Cinzel', serif;
+    color: #fafafa;
+  margin: auto;
+  text-shadow: darkslategray 0 0 10px;
+
+
+}
+
+.areasCard2 {
+  width: 150px;
+  height: 150px;
+  border-radius: 10px;
+  background-image: url('https://static.wixstatic.com/media/1e47b2_c26ab7b9253a4c87ab16215fda12a934.png/v1/fill/w_132,h_132,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/1e47b2_c26ab7b9253a4c87ab16215fda12a934.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+  h1{
+    font-size: 4rem;
+  }
+}
+
+
+@media screen and (min-width: 768px) {
+  .areasContent {
+    display: flex;
+    flex-direction: row;
+  }
+}

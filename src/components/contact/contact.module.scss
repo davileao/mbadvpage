@@ -1,0 +1,47 @@
+.contact {
+  background-color: #4D4B4B;
+  padding: 4rem 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+
+
+
+  .contatoTitle {
+    color: #fff;
+    font-size: 2rem;
+    text-align: start;
+    font-family: 'Cinzel', serif;
+  }
+
+}
+
+
+.contatoContainer {
+
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+
+
+  .contatoSubTitle {
+    color: #A69374;
+    font-weight: bold;
+    font-family: 'Cinzel', serif;
+    margin-bottom: 0.5rem;
+  }
+
+  .contatoText {
+    color: #A69374;
+    font-family: 'Cinzel', serif;
+  }
+}
+
+.maps {
+  display: flex;
+    justify-content: center;
+    align-items: center;
+   margin: 1rem 0 2rem;
+
+
+}

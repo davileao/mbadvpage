@@ -1,0 +1,43 @@
+.logoImg {
+  width: 50px;
+  height: 50px;
+}
+
+.logoTitle {
+  font-size: 1.5rem;
+  color: #000;
+  margin-left: 10px;
+  font-family: 'Cinzel', serif;
+}
+
+.logo {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin: 0 0 0 10px;
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.5rem;
+  font-weight: 700;
+  letter-spacing: 1px;
+  transition: all 0.3s ease-in-out;
+  gap: 0.5rem;
+
+  &:hover {
+    color: #fff;
+    text-decoration: none;
+  }
+
+}
+
+.navlink {
+  font-family: 'Cinzel', serif;
+    font-size: 1.5rem;
+}
+
+@media screen and (min-width: 768px) {
+  .drawer {
+    display: none;
+  }
+}
