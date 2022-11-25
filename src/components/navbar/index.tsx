@@ -56,12 +56,13 @@ export default function DrawerAppBar() {
     return (
         <Box sx={{  display: 'flex' }}>
             <AppBar position={"sticky"} sx={{bgcolor: "#fff", border: 'none', boxShadow: 'none'}} component="nav">
-                <Toolbar sx={{justifyContent: "space-between", alignContent: 'center'}}>
+                <Toolbar sx={{display: { md: 'none' }, justifyContent: "space-between", alignContent: 'center'}}>
 
                     <div className={styles.logo}>
                         <a href={'/'}><img className={styles.logoImg} src={icon} alt="logo"/></a>
+                        <a href='/' className={styles.logoTitle}>Marcus Braz</a>
                     </div>
-                    <a href='/' className={styles.logoTitle}>Marcus Braz</a>
+
                     <IconButton
                         color="inherit"
                         aria-label="open drawer"

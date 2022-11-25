@@ -13,7 +13,7 @@ export default function Welcome() {
             </div>
 
             <div className={styles.welcomeText}>
-                <img className={styles.union} src={union}/>
+                <img alt={'foto'} className={styles.union} src={union}/>
             </div>
 
             <div className={styles.welcomeArea}>

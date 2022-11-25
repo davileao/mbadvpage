@@ -18,10 +18,16 @@ export default function Areas() {
                 </Paper>
                 <Paper className={styles.areasCard2}>
                     <h1 className={styles.areasCardTitle}>03</h1>
-                    <h2 className={styles.areasCardTitle}>Trabalho</h2>
+                    <h2 className={styles.areasCardTitle}>Família</h2>
                 </Paper>
                 <Paper className={styles.areasCard}>
                     <h1 className={styles.areasCardTitle}>04</h1>
+                    <h2 className={styles.areasCardTitle}>Trabalho</h2>
+                </Paper> <Paper className={styles.areasCard}>
+                    <h1 className={styles.areasCardTitle}>05</h1>
+                    <h2 className={styles.areasCardTitle}>Contratos</h2>
+                </Paper> <Paper className={styles.areasCard2}>
+                    <h1 className={styles.areasCardTitle}>06</h1>
                     <h2 className={styles.areasCardTitle}>Empresarial</h2>
                 </Paper>
 

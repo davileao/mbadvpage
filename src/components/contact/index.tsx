@@ -11,7 +11,9 @@ export default function Contact() {
                     title={'Map'}
                     src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15924.860831128526!2d-38.49356675793452!3d-3.763283544722748!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7c74602790121a9%3A0xf2ab65a62f3e1194!2sR.%20Firmino%20Rocha%20Aguiar%2C%20801%20-%20Guararapes%2C%20Fortaleza%20-%20CE%2C%2060810-165!5e0!3m2!1spt-BR!2sbr!4v1669308851448!5m2!1spt-BR!2sbr"
                     width="400" height="300" loading="lazy"
-                    referrerPolicy="no-referrer-when-downgrade"></iframe>
+                    referrerPolicy="no-referrer-when-downgrade"
+                    className={styles.mapContainer}
+                ></iframe>
             </div>
 
 

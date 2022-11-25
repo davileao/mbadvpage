@@ -7,9 +7,11 @@ import "swiper/css";
 import "swiper/css/pagination";
 
 import trabalho from "../../../assets/images/trabalho.png";
-import civil from "../../../assets/images/civil.png";
+import civil from "../../../assets/images/union.png";
 import previdenciario from "../../../assets/images/previdenciario.png";
 import consumidor from "../../../assets/images/consumidor.png";
+import union2 from "../../../assets/images/union2.png";
+import familia from "../../../assets/images/familia.png";
 import styles from "./carousel.module.scss";
 
 
@@ -33,7 +35,9 @@ export default function Carousel () {
             >
                 <SwiperSlide><img className={styles.carouselImg} alt={'livros e martelo de juiz'} src={civil}/></SwiperSlide>
                 <SwiperSlide><img className={styles.carouselImg} alt={'livros e martelo de juiz'} src={trabalho}/></SwiperSlide>
+                <SwiperSlide><img className={styles.carouselImg} alt={'livros e martelo de juiz'} src={familia}/></SwiperSlide>
                 <SwiperSlide><img className={styles.carouselImg} alt={'livros e martelo de juiz'} src={consumidor}/></SwiperSlide>
+                <SwiperSlide><img className={styles.carouselImg} alt={'livros e martelo de juiz'} src={union2}/></SwiperSlide>
                 <SwiperSlide><img className={styles.carouselImg} alt={'livros e martelo de juiz'} src={previdenciario}/></SwiperSlide>
 
             </Swiper>
